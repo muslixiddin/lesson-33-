@@ -1,0 +1,47 @@
+.hero{
+   padding-bottom: 100px;
+ .hero_wrapper{
+    background-image: url(../images/her.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+ }
+ .hero_image-bottom{
+position: absolute;
+bottom: -21%;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+}
+
+@media (min-width:720px) {
+   .hero{
+   .hero_wrapper{
+      background-image: url(../images/her.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 50vh;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      color: white;
+      position: relative;
+   }
+   .hero_image-bottom{
+      padding-left: 10%;
+  position: absolute;
+  bottom: -21%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+   }
+  }
+}
